@@ -1,4 +1,4 @@
-const apiUrl = process.env.API_URL || 'https://diablo-clone-tracker.onrender.com/api/status';
+const apiUrl = 'https://diablo-clone-tracker.onrender.com/api/status';
 let previousStatus = {};
 let timerInterval;
 let checkFrequency = 10;
