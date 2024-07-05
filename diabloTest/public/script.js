@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:3000/api/status';
+const apiUrl = 'http://localhost:5000/api/status';
 let previousStatus = {};
 let timerInterval;
 let checkFrequency = 10;
