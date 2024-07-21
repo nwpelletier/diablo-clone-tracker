@@ -1,0 +1,43 @@
+/* styles.css */
+
+.status-item {
+    width: 20vw;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.status-item.collapsed {
+    height: 0;
+    padding: 0;
+}
+
+.status-item span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.checkbox-container {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.checkbox-column {
+    width: 10vw;
+    text-align:center;
+    background-color: #b31414;
+    padding: 8px;
+    border: 6px solid #190404;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
